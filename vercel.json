@@ -1,6 +1,9 @@
 {
   "version": 2,
+  "builds": [
+    { "src": "api/chat.tsx", "use": "@vercel/node" }
+  ],
   "routes": [
-    { "src": "/v1/chat", "dest": "/api/chat.ts" }
+    { "src": "/api/chat", "dest": "api/chat.tsx" }
   ]
 }
