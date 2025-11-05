@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/v1/chat", "dest": "/api/chat.ts" }
+  ]
+}
