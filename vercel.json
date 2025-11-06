@@ -4,6 +4,6 @@
     { "src": "api/chat.tsx", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/chat", "dest": "api/chat.tsx" }
+    { "src": "/v1/chat", "dest": "/api/chat.tsx" }
   ]
 }
